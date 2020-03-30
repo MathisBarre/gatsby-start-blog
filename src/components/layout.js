@@ -1,5 +1,5 @@
 import React from "react"
-import containerStyles from "./layout.module.css"
+import containerStyles from "./layout.module.scss"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 export default ({children}) => {
@@ -17,8 +17,11 @@ export default ({children}) => {
 
   return (
     <div>
-      <h1 className={containerStyles.title}><Link to="/">{data.site.siteMetadata.title}</Link></h1>
       <div className={containerStyles.container}>
+        <header className={containerStyles.header}>
+          <h1 className={containerStyles.title}><Link to="/">{data.site.siteMetadata.title}</Link></h1>
+          <Link to="/about/" >About me</Link>
+        </header>
         {children}
       </div>
     </div>

@@ -40,4 +40,4 @@ If you are already familiar with Gatsby’s APIs and conventions, and want a mor
 
 ## Or take a look on the result online !
 
-[Link to my blog](#)
+[Link to my blog](https://mathisbarre-blog.netlify.com)

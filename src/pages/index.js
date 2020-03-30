@@ -3,9 +3,11 @@ import Layout from "../components/layout"
 import { Link, graphql } from "gatsby"
 
 import styles from "./index.module.scss"
+import SEO from "../components/seo"
 
 export default ({ data }) => (
   <Layout>
+    <SEO title="Home" />
     {data.allMarkdownRemark.edges.map(({node: article}) => (
       <article>
         <h2 className={styles.articleTitle}><Link to={article.fields.slug}>{article.frontmatter.title}</Link></h2>

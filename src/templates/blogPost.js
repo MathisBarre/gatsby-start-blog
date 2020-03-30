@@ -2,14 +2,16 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
+import SEO from "../components/seo"
 import styles from "./blogPost.module.scss"
-import imgCalendar from "../assets/images/calendar.svg"
-import imgClock from "../assets/images/clock.svg"
+import imgCalendar from "../images/calendar.svg"
+import imgClock from "../images/clock.svg"
 
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
+      <SEO title={post.frontmatter.title} description={post.excerpt} />
       <h2 className={styles.title}>{post.frontmatter.title}</h2>
       <h5 className={styles.tags}>{post.frontmatter.tags}</h5>
       <div className={styles.infobar}>
@@ -36,6 +38,7 @@ export const query = graphql`
         date
         tags
       }
+      excerpt
       timeToRead
     }
   }

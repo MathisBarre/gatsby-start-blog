@@ -1,0 +1,14 @@
+.articleTitle {
+  margin-bottom: 0;
+}
+
+.articleTag {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.date {
+  opacity: .75;
+  font-size: .8em;
+}

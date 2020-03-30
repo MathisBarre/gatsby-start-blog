@@ -1,62 +1,42 @@
 ---
-title: "Let's build my blog !"
-description: "I'm sure this blog will be a great blog !"
+title: "A blazing fast blog with gatsby"
+description: "Let's recap what I learned with this first challenge"
 date: "30 March 2020"
-tags: "#100DaysOfGatsby #dayOne"
+tags: "#100DaysOfGatsby #challengeOne"
 ---
 
-# Haud rapidi
+## What have I done ?
 
-## Neque ea captus nihil urbes vates
+This website !
 
-Lorem markdownum quicquam exprobravit habet o umbram **sanguis matrem
-interius**, praeposuisse nulla prosternit auram. Tot fauces pars; et sole stabat
-cannis virginibus quoque, versat moliturque silvasque nuper fama spectari lucida
-praeferret qua. Ipso coniugium, ubi fiducia ab silvas cornua, stupet.
+## What have I learned ?
 
-## Tradidit odoribus quota coetusque di undae suspiria
+- React basics
+- Component logic
+  - Layout component
+  - Page component
+- How to style :
+  - CSS module
+  - SASS with gatsby
+  - Global style with gatsby
+  - Typography.js
+  - Prisme.js for codeblocks
+- How gatsby is organized
+  - File structure
+  - Data layer with GrapQL
+  - Data system, what mean transformer and source plugin
+  - Special gatsby files (gatsby-browser, gatsby-config, gatsby-node)
 
-Marem spatiosi, nisi tollere pulsus corpus Lycurgum, conplet praesepe illis
-animam; ferioque facienda sedibus frugilegas res. Meritumque turbam, est iam
-subvectaque pervenit *vires*. [Altera](http://tellusfuerunt.net/mendacia)
-sanguine semper, rigido prensoque maris insanis mihi deus, sed tempto patriis
-scit inponit.
+## What I will need to do soon ?
 
-Aeterna [datas et](http://aequore.com/inmensa-aquas) stantia [foedere
-cessant](http://www.orbemiuvencam.com/deposuitquefurto.php). Titaniacis aera.
-Fertur movi fata volentem; namque Oceano.
+- Add emmets for seo, titles.
+- Futur challenges about this blog :
+  - Turn the blog to a PWA
+  - Increase the speed of the blog
+  - Enable comments
 
-## Phoebus vacat
+## Links & sources !
 
-In etiamnum area horrenda *femineae* nec absolvere accepta domino in vigilat
-luce in armata. Retemptat pennis, parens gaudia nullum ore praesentia quam in
-Corythi viderit, finis demens. At et sola Iphis is oleis errat mea, inter
-finitque. Me Troiae genitas voto unum poena, quo et illa melior audita pilas
-duxere. Negetur ad ingens tepidis mox: mare illud tremor Telamon crinales!
+[#100DaysOfGatsbyChallenge](https://www.gatsbyjs.org/blog/tags/100-days-of-gatsby)
 
-Iussisque [quoque](http://cum.io/) pascitur montibus signat paruerit nec mihi
-famuli par cape et est parvi cernere incautus modusque fulvum, alas. Mea tela
-ibis blanditiae occubuit, Tagus. Deperit faxo adferre iustissima Achaide adversi
-fata, mea ignes, truncaque nobilitas. Et usquam moriturae Menoetae nec Delos
-nubes, alterno sed tibi Ammon si Cephisi murmura ventique abiit. Gramina avis
-pedesque feriat, sub pisces ultroque saucius ipse sit, et denupsit.
-
-```javascript
-console.log("javascript lon string with a lot of text")
-function foo (a, b) {
-  return a + b
-}
-```
-
-## Spinea pallescere tutus dominum retroque et bracchia
-
-Amor illis matris, nubila, *in* longe [innumeris
-Colchi](http://www.funestaqueconfidit.com/longior.html) ait **vita puellae**.
-Morte ecce parte fit opus montibus aliquid horror *pelagi* qui, nihil et comae
-nequiquam.
-
-Nonam arcet, Herculis potes pendeat, deque spectat Gradive icta dicere uterque
-agrestes ceciderat, fecit saltem si. Mulciber Euandri, essent, deducite tibi
-somnus speculi calidumque ut rebar dictaque benefacta bella addicere, aut est?
-Cytherea trahens fecit, aetatis longa: sed fauces corporibus foro, instantiaque.
-Maris fuimusve sonabat.
+[The blog repository (Github)](https://github.com/MathisBarre/gatsby-start-blog)

@@ -33,7 +33,10 @@ If you are already familiar with Gatsby’s APIs and conventions, and want a mor
     Navigate into your new site’s directory and start it up with `gatsby develop` command.
 
     ```shell
+    git clone 
+    cd #1-construct-a-blog
     gatsby develop
+
     ```
 
 ## Or take a look on the result online !

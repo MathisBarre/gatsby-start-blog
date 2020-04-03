@@ -3,7 +3,7 @@ title: "Image & Markdown plugin mess"
 description: ""
 date: "31 March 2020"
 tags: "#100DaysOfGatsby #challengeThree"
-featuredImage: "../../images/fi.jpg"
+featuredImage: ""
 ---
 
 Shit we have a lot of plugins and plugin-in-plugin for markdown and images, let's clear things up
@@ -19,4 +19,4 @@ Shit we have a lot of plugins and plugin-in-plugin for markdown and images, let'
 - **gatsby-plugin-sharp** : Low-level plugin, not to use alone. Allows to process image with sharp library, used by 
 - **gatsby-transformer-sharp** : Create ImageSharp node from image types supported by Sharp
 
-![Image](./fi.jpg)
+![Image](../../images/fi.jpg)

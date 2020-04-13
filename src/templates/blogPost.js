@@ -44,13 +44,6 @@ export const query = graphql`
         title
         date
         tags
-        featuredImage {
-          childImageSharp {
-            fluid(maxWidth: 600, maxHeight: 200) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
       excerpt
       timeToRead

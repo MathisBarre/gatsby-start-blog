@@ -1,7 +1,7 @@
 ---
 title: "A blazing fast blog with gatsby"
 description: "Let's recap what I learned with this first challenge"
-date: "30 March 2020"
+date: "2020-03-30"
 tags: "#100DaysOfGatsby #challengeOne"
 featuredImage: "../../images/fi.jpg"
 ---

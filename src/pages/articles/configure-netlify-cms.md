@@ -15,6 +15,8 @@ This config work only with netlify indentity x git-gateway x github
 ```yml
 # How to access the content for your site
 backend: 
+  # Auth with netlify
+  name: git-gateway
   # The branch where published content is stored.
   branch: master 
 
